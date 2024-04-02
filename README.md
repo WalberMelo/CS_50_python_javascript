@@ -1,3 +1,9 @@
-# CS50's Web Programming with Python and JavaScript ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/asifo1/cs50w&title=Views)
+# CS50's Web Programming with Python and JavaScript ![Hits](https://github.com/WalberMelo/CS_50_python_javascript)
 
 [Course Link](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/)
+
+## Project 1 : Wiki (2020)
+
+[code](https://github.com/WalberMelo/CS_50_python_javascript/tree/main/project_1_wiki) 
+
+
