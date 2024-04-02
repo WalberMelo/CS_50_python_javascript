@@ -1,4 +1,4 @@
-# CS50's Web Programming with Python and JavaScript ![Hits](https://github.com/WalberMelo/CS_50_python_javascript)
+# CS50's Web Programming with Python and JavaScript
 
 [Course Link](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/)
 
