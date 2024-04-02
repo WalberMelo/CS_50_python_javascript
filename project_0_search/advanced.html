@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="advanced.css" />
+    <link rel="stylesheet" href="nav.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar">
+        <a href="index.html">Google Search</a>
+        <a href="image.html">Google Images</a>
+      </div>
+    </nav>
+    <div class="container">
+      <h4>Advanced Search</h4>
+      <hr />
+      <form action="https://www.google.com/search">
+        <div class="main__grid">
+          <div class="grid_header-1">
+            <h3>Find pages with..</h3>
+          </div>
+          <div class="grid_header-2">
+            <p class="second_label--row">To do this in the search box</p>
+          </div>
+          <!-- row 1 -->
+          <div>
+            <label for="inp--row-1"> all these words: </label>
+          </div>
+          <section>
+            <input id="inp--row-1" type="text" class="inp" name="as_q" />
+          </section>
+          <div class="second_label">
+            Type the important words: tri-colour rat terrier
+          </div>
+          <!-- row 2 -->
+          <div>
+            <label for="inp--row-2"> this exact word or phrase: </label>
+          </div>
+          <section>
+            <input id="inp--row-2" type="text" class="inp" name="as_epq" />
+          </section>
+          <div class="second_label">
+            Put exact words in quotes: "rat terrier"
+          </div>
+          <!-- row 3 -->
+          <div>
+            <label for="inp--row-3">any of these words:</label>
+          </div>
+          <section>
+            <input id="inp--row-3" type="text" class="inp" name="as_oq" />
+          </section>
+          <div class="second_label">
+            Type OR between all the words you want: miniature OR standard
+          </div>
+          <!-- row 4 -->
+          <div>
+            <label for="inp--row-4">none of these words:</label>
+          </div>
+          <section>
+            <input id="inp--row-4" type="text" class="inp" name="as_eq" />
+          </section>
+          <div class="second_label">
+            Put a minus sign just before words that you don't want: -rodent,
+            -"Jack Russell"
+          </div>
+        </div>
+        <button type="submit">Advanced Search</button>
+      </form>
+    </div>
+  </body>
+</html>

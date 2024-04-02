@@ -1,0 +1,378 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.google_logo {
+  height: 100px;
+  width: 300px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.google_logo--images {
+  position: absolute;
+  top: 280px;
+  right: 50em;
+}
+
+.search__box {
+  width: 640px;
+  margin: 0 auto;
+  border: 1px solid gray;
+  border-radius: 25px;
+  height: 50px;
+}
+
+.search_bar {
+  width: 550px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  position: relative;
+}
+.search:hover {
+  box-shadow: 0px 1px 3px rgb(192, 185, 185);
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+.search_icon {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
+.microphone {
+  background-color: black;
+}
+
+.button__container {
+  margin-top: 2%;
+}
+
+.search_btn {
+  height: 40px;
+  border: none;
+  color: #646464;
+  background: #f2f2f2;
+}
+
+.search_btn:hover {
+  color: rgb(37, 37, 37);
+  border: 1px solid lightgray;
+}
+
+/*  MEDIA QUERY */
+
+/* smartphones, portrait iPhone, tablet, portrait 480x320 phones (Android) */
+@media (max-width: 320px) {
+  .nav-bar {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-left: 150px;
+    padding: 50px;
+  }
+
+  .google_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: auto;
+  }
+
+  .search__box {
+    width: 100px;
+    height: 10px;
+  }
+
+  .search_bar {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    border: none;
+    outline: none;
+    width: 80px;
+    padding: 0px;
+    margin-right: -20px;
+    margin-left: 0px;
+    position: relative;
+  }
+  .search_icon {
+    width: 8px;
+    height: auto;
+    margin: 1px -10px;
+  }
+
+  .microphone {
+    width: 8px;
+    height: auto;
+  }
+
+  .button__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .search_btn {
+    font-size: 8px;
+    width: 80px;
+    height: auto;
+  }
+}
+
+/* smartphones, Android phones, landscape iPhone */
+@media (max-width: 480px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-left: 70px;
+  }
+
+  .google_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: auto;
+  }
+
+  .search__box {
+    width: 100px;
+    height: 10px;
+  }
+
+  .search_bar {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    border: none;
+    outline: none;
+    width: 80px;
+    padding: 0px;
+    margin-right: -20px;
+    margin-left: 0px;
+    position: relative;
+  }
+  .search_icon {
+    width: 15px;
+    height: auto;
+    margin: 5px -10px;
+  }
+
+  .fas {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (max-width: 600px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 250px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+  }
+
+  .google_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
+  }
+
+  .search__box {
+    width: 200px;
+    height: 20px;
+  }
+
+  .search_bar {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    border: none;
+    outline: none;
+    width: 160px;
+    padding: 0px;
+    margin-right: -20px;
+    margin-left: 5px;
+    position: relative;
+  }
+  .search_icon {
+    width: 15px;
+    height: auto;
+    margin: 5px -10px;
+  }
+
+  .fas {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (max-width: 801px) {
+  @media (max-width: 600px) {
+    .nav-bar {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      align-items: center;
+      margin-left: 350px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+    }
+
+    .google_logo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      height: auto;
+    }
+
+    .search__box {
+      width: 300px;
+      height: 30px;
+    }
+
+    .search_bar {
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-size: 8px;
+      border: none;
+      outline: none;
+      width: 240px;
+      height: 20px;
+      padding: 0px;
+      margin-right: -20px;
+      margin-left: 5px;
+      position: relative;
+    }
+    .search_icon {
+      width: 20px;
+      height: auto;
+      margin: 5px -15px;
+    }
+
+    .fas {
+      font-size: 15px;
+      margin-left: 20px;
+      padding-top: 5px;
+    }
+  }
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media (max-width: 1025px) {
+  .google_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: auto;
+  }
+
+  .search__box {
+    width: 400px;
+    height: 30px;
+  }
+
+  .search_bar {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    border: none;
+    outline: none;
+    width: 350px;
+    height: 20px;
+    padding: 0px;
+    margin-right: -20px;
+    margin-left: 5px;
+    position: relative;
+  }
+  .search_icon {
+    width: 20px;
+    height: auto;
+    margin: 5px -13px;
+  }
+
+  .fas {
+    font-size: 15px;
+    margin-left: 20px;
+    padding-top: 5px;
+  }
+}
+
+/* hi-res laptops and desktops */
+@media (max-width: 1281px) {
+}

@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+nav a {
+  color: black;
+  margin: 20px;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 14px;
+}
+nav i {
+  margin: 20px;
+}
